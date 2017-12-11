@@ -152,6 +152,7 @@ public class TestPoi {
                     exportSheet=tempSheet;
                 }
             }
+            System.out.println("a");
             //从模板读取模板的样式、内容，并填充到导出sheet的表数据部分
             //这里以一个单元格为例子
             XSSFCell testCell=exportSheet.createRow(0).createCell(0);
